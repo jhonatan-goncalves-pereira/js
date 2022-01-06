@@ -1,0 +1,32 @@
+section > .row >.col-md-8{
+    border-left:10px solid #999 ;
+    margin-top: 10px;
+    padding: 60px 20px;
+    background-color:rgba(10, 13, 44, 0.9);
+    border-radius: 10px;
+    color:white
+}
+section .btnVerifica{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+section .txtArea{
+    text-align: right;
+}
+section textarea{
+    width: 100%;
+}
+section .lblVP{
+    font-size: .7em;
+}
+ a{
+    color:black;
+    opacity: .5;
+    text-decoration: none;
+}
+ a:hover{
+    color:black;
+    opacity: 1;
+}

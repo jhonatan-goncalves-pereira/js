@@ -31,7 +31,8 @@ function vefificaPalindromo(){
 function addTxt (){
     txtArePalindromo.value = String(txtInputFrase.value).toUpperCase();
     txtInputFrase.value = String(txtInputFrase.value).toUpperCase();
-    txtArePalindromo.style.color = 'black'
+    txtArePalindromo.style.color = 'black';
+    txtArePalindromo.style.textAlign = 'center'
 }
 txtInputFrase.addEventListener("keyup",addTxt);
 btnVerificaPalindromo.addEventListener("click",vefificaPalindromo);
